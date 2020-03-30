@@ -1,1 +1,11 @@
-from setuptools import setupsetup(name='Person',        version='1.0.0',        description='My classwork project',        url='https://github.com/IvanStanchev/Skriptovi/blob/master/person.py',        author='IvanStanchev',        author_email='ivan.stanchev04@gmail.com',        license='MIT',        packages=['Skriptovi'],        zip_safe=False)
+from setuptools import setup
+
+setup(name='Person',
+        version='1.0.0',
+        description='My classwork project',
+        url='https://github.com/IvanStanchev/Skriptovi/blob/master/Person',
+        author='IvanStanchev',
+        author_email='ivan.stanchev04@gmail.com',
+        license='MIT',
+        packages=['Skriptovi'],
+        zip_safe=False)
